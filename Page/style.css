@@ -1,0 +1,95 @@
+body {
+	background: #393E46;
+	font-family: 'Poppins', sans-serif;
+}
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 110px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background-color: #222831;
+    color: #FFD369;
+}
+.titulo-h1 {
+	font-size: 35px;
+	font-weight: 600px;
+	margin-left: 30px;
+}
+span {
+	font-family: 'Roboto Mono', monospace;
+	font-weight: 1;
+}
+
+.items {
+	margin-right: 30px;
+}
+.ulist {
+	display: flex;
+	float: right;
+	list-style: none;
+}
+li {
+ 	margin: auto;
+ 	padding: 20px 30px;
+  	border-bottom: solid 2px transparent;	
+}
+li:hover {
+	border-bottom: solid 2px #FFD369
+}
+a {
+	color: #FFD369;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+/* MAIN */
+
+main {
+	width: 90%;
+	margin: auto;
+}
+
+.presentacion {
+	height: 90vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+}
+.titulo {
+	font-size: 40px;
+	color: #FFD369;
+	font-weight: 800px;
+}
+.imagen img {
+	width: 130px;
+	margin-left: 15px;
+}
+.section-2 {
+	margin-top: -200px;
+}
+.section-2 h1 {
+	color: #FFD369;
+	font-size: 28px;
+	font-family: 'Roboto Mono', monospace;
+	font-weight: 1;
+	text-align: center;
+
+}
+.ilustracion {
+	display: flex;
+	justify-content: center;
+}
+.ilustracion img {
+	width: 230px;
+	margin-top: 25px;
+}
+
