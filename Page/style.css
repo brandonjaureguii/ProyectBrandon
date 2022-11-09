@@ -58,14 +58,14 @@ main {
 }
 
 .presentacion {
-	height: 90vh;
+	height: 80vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	box-sizing: border-box;
 }
 .titulo {
-	font-size: 40px;
+	font-size: 38px;
 	color: #FFD369;
 	font-weight: 800px;
 }
@@ -74,7 +74,7 @@ main {
 	margin-left: 15px;
 }
 .section-2 {
-	margin-top: -200px;
+	margin-top: -150px;
 }
 .section-2 h1 {
 	color: #FFD369;
